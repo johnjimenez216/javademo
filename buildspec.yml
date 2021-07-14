@@ -10,5 +10,5 @@ phases:
       - echo Construccion completada
 artifacts:
   files:
-    - target/demo.jar
+    - target/demo-0.0.1-SNAPSHOT.jar
   discard-paths: yes
