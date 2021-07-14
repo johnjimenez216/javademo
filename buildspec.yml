@@ -1,14 +1,14 @@
 version: 0.2
 
 phases:
-	build:
-		commands:
-			- echo "Entra a la fase de construccion..."
-			- mvn clean package
-	post_build
-		commands:
-			- echo "Construccion Completada..."
+  build:
+    commands:
+      - echo Contruyendo el paquete
+      - mvn clean package
+  post_build:
+    commands:
+      - echo Contruccion completada
 artifacts:
-	files:
-		- target/demo.jar
-	discard-paths: yes
+  files:
+    - target/demo.jar
+  discard-paths: yes
