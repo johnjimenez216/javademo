@@ -11,5 +11,10 @@ public class ApiController {
 	public String hello(){
 		return "Hola este es un servicio de ejemplo";
 	}
+	
+	@RequestMapping("/user")
+	public String user(){
+		return "This is the rest method for user get";
+	}
 
 }
